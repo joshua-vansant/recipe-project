@@ -3,6 +3,8 @@
 ## Description
 Recipes Project is a web application designed for managing my favorite recipes. Users can add new recipes, view details of existing ones, and explore recipes with images.
 
+**Note:** This project is hosted on the free tier of Render, which may result in slower page load times. Thank you for your patience!
+
 ## Live Demo
 Check out the live demo of the application hosted on Render: [Recipes Project on Render](https://recipe-project-ajgm.onrender.com/)
 
