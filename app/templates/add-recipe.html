@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    {% with messages = get_flashed_messages(with_categories=True) %}
+    {% if messages %}
+        <div class="container mt-3">
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category }}">
+                    {{ message }}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    {% endwith %}
+    <div class="container">
+        <h1 class="mt-4">Add a New Recipe</h1>
+
+        <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+            <a class="navbar-brand" href="/">Recipe List</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('main.add_recipe') }}">Add Recipe</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+
+        <form method="POST" action="/add-recipe">
+            {{ form.hidden_tag() }}
+            <div class="form-group">
+                {{ form.name.label }}
+                {{ form.name(class="form-control") }}
+                {% for error in form.name.errors %}
+                    <div class="text-danger">{{ error }}</div>
+                {% endfor %}
+            </div>
+
+            <!-- Ingredients Section -->
+            <div class="form-group">
+                <label for="ingredient">Ingredients</label>
+                <div class="row">
+                    <div class="col-md-5">
+                        <input type="text" class="form-control" id="measurement" placeholder="Measurement">
+                    </div>
+                    <div class="col-md-7">
+                        <input type="text" class="form-control" id="ingredient" placeholder="Ingredient">
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary mt-2" onclick="addIngredient()">Add Ingredient</button>
+            </div>
+
+            <input type="hidden" name="ingredients_list" id="ingredients_list">
+
+            <div class="form-group">
+                {{ form.instructions.label }}
+                {{ form.instructions(class="form-control", rows=5) }}
+                {% for error in form.instructions.errors %}
+                    <div class="text-danger">{{ error }}</div>
+                {% endfor %}
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit Recipe</button>
+        </form>
+
+        <script>
+            function addIngredient() {
+            var measurement = document.getElementById('measurement').value;
+            var ingredient = document.getElementById('ingredient').value;
+
+            if (measurement.trim() && ingredient.trim()) {
+                var ingredientsList = document.getElementById('ingredients-list');
+                var listItem = document.createElement('li');
+                listItem.textContent = measurement + ' ' + ingredient;
+                ingredientsList.appendChild(listItem);
+
+                var hiddenField = document.getElementById('ingredients_list');
+                var currentValue = hiddenField.value;
+                hiddenField.value = currentValue ? currentValue + '|' + measurement + ' ' + ingredient : measurement + ' ' + ingredient;
+
+                console.log('New Ingredient Added:', measurement + ' ' + ingredient);
+                console.log('Updated Ingredients List:', hiddenField.value);
+
+                document.getElementById('measurement').value = '';
+                document.getElementById('ingredient').value = '';
+            } else {
+                alert('Please fill out both fields');
+            }
+        }
+
+        </script>
+
+        <!-- List to show ingredients added -->
+        <h3 class="mt-4">Ingredients List</h3>
+        <ul id="ingredients-list" class="list-group">
+            <!-- Ingredients will be added here -->
+        </ul>
+    </div>
+</body>
+</html>

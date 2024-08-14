@@ -1,0 +1,336 @@
+2024-08-13 20:34:05,861 - ERROR - Exception on /add-recipe [POST]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 20, in add_recipe
+    app.log('Form submitted')
+    ^^^^^^^
+AttributeError: module 'app' has no attribute 'log'
+2024-08-13 20:35:08,140 - ERROR - Exception on /add-recipe [POST]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 20, in add_recipe
+    app.log('Form submitted')
+    ^^^^^^^
+AttributeError: module 'app' has no attribute 'log'
+2024-08-13 20:35:24,729 - ERROR - Exception on /add-recipe [POST]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 20, in add_recipe
+    app.log('Form submitted')
+    ^^^^^^^
+AttributeError: module 'app' has no attribute 'log'
+2024-08-13 20:40:06,804 - ERROR - Exception on /add-recipe [POST]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 20, in add_recipe
+    instructions = form.instructions.data
+    ^^^^^^^
+AttributeError: module 'app' has no attribute 'log'
+2024-08-13 20:44:24,886 - ERROR - Exception on /add-recipe [POST]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 30, in add_recipe
+    app.logger.info(f'Form Data: Name={name}, Instructions={instructions}, Ingredients={ingredients_list}')
+    ^^^^^^^^^^
+AttributeError: module 'app' has no attribute 'logger'
+2024-08-13 20:45:08,351 - ERROR - Exception on /add-recipe [POST]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 30, in add_recipe
+    # app.logger.info(f'Form Data: Name={name}, Instructions={instructions}, Ingredients={ingredients_list}')
+    ^^^^^^^^^^
+AttributeError: module 'app' has no attribute 'logger'
+2024-08-13 20:45:20,410 - ERROR - Exception on /add-recipe [POST]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 30, in add_recipe
+    # app.logger.info(f'Form Data: Name={name}, Instructions={instructions}, Ingredients={ingredients_list}')
+    ^^^^^^^^^^
+AttributeError: module 'app' has no attribute 'logger'
+2024-08-13 21:17:48,457 - ERROR - Exception on /recipe/6 [GET]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 66, in view_recipe
+    image_url = get_image_url(recipe.name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 73, in get_image_url
+    "client_id": os.getenv('UNSPLASH_ACCESS_KEY'),
+                 ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+2024-08-13 21:17:53,479 - ERROR - Exception on /recipe/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 66, in view_recipe
+    image_url = get_image_url(recipe.name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 73, in get_image_url
+    "client_id": os.getenv('UNSPLASH_ACCESS_KEY'),
+                 ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+2024-08-13 21:18:54,742 - ERROR - Exception on /recipe/5 [GET]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 66, in view_recipe
+    recipe = RecipeTable.query.get_or_404(recipe_id)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 73, in get_image_url
+    "query": query,
+                 ^^
+NameError: name 'os' is not defined. Did you forget to import 'os'
+2024-08-13 21:30:28,259 - ERROR - Exception on /recipe/6 [GET]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 67, in view_recipe
+    image_url = get_image_url(recipe.name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 81, in get_image_url
+    return data[0]['urls']['regular']
+           ~~~~^^^
+KeyError: 0
+2024-08-13 21:30:37,894 - ERROR - Exception on /recipe/6 [GET]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 67, in view_recipe
+    image_url = get_image_url(recipe.name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 81, in get_image_url
+    return data[0]['urls']['regular']
+           ~~~~^^^
+KeyError: 0
+2024-08-13 21:31:14,142 - ERROR - Exception on /recipe/6 [GET]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 67, in view_recipe
+    image_url = get_image_url(recipe.name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 81, in get_image_url
+    return data[0]['urls']['regular']
+           ~~~~^^^
+KeyError: 0
+2024-08-13 21:31:34,245 - ERROR - Exception on /recipe/6 [GET]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 67, in view_recipe
+    image_url = get_image_url(recipe.name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 81, in get_image_url
+    return data[0]['urls']['regular']
+           ~~~~^^^
+KeyError: 0
+2024-08-13 21:32:11,756 - ERROR - Exception on /recipe/6 [GET]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 67, in view_recipe
+    image_url = get_image_url(recipe.name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 81, in get_image_url
+    return data[0]['urls']['regular']
+           ~~~~^^^
+KeyError: 0
+2024-08-13 22:01:55,286 - ERROR - Exception on /recipe/7 [GET]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 67, in view_recipe
+    image_url = get_image_url(recipe.name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 86, in get_image_url
+    image_url = data['results'][0]['urls']['refular']
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'refular'
+2024-08-13 22:02:13,636 - ERROR - Exception on /recipe/7 [GET]
+Traceback (most recent call last):
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\venv\Lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 67, in view_recipe
+    image_url = get_image_url(recipe.name)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\joshu\OneDrive\Desktop\projectsForPortfolio\flask_recipes\app\routes.py", line 86, in get_image_url
+    image_url = data['results'][0]['urls']['regular']
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'refular'
