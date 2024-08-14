@@ -20,9 +20,9 @@ def add_recipe():
     if form.validate_on_submit():
         name = form.name.data
         instructions = form.instructions.data
-        ingredients_list = form.ingredients_list.data  # Use form data
+        ingredients_list = form.ingredients_list.data 
 
-        # Split the ingredients_list by '|' and remove any empty entries
+        # Remove empty entires
         ingredients_list = [ingredient.strip() for ingredient in ingredients_list.split('|') if ingredient.strip()]
 
         if not ingredients_list:
@@ -34,7 +34,7 @@ def add_recipe():
         try:
             new_recipe = RecipeTable(
                 name=name,
-                ingredients='|'.join(ingredients_list),  # Join ingredients back for storage
+                ingredients='|'.join(ingredients_list),
                 instructions=instructions
             )
             db.session.add(new_recipe)

@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <style>
         .recipe-img {
-            max-width: 250px; /* Adjust size here */
+            max-width: 250px;
             height: auto;
-            margin-right: 20px; /* Space between image and text */
+            margin-right: 20px;
         }
     </style>
 </head>
@@ -18,10 +18,8 @@
         <h1 class="mt-4">{{ recipe.name }}</h1>
 
         <div class="d-flex mb-4">
-            <!-- Recipe Image -->
             <img src="{{ image_url }}" alt="{{ recipe.name }}" class="recipe-img" onerror="this.src='https://via.placeholder.com/150x150?text=No+Image+Available';">
 
-            <!-- Recipe Details -->
             <div>
                 <p><strong>Ingredients:</strong></p>
                 <ul>

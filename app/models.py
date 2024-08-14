@@ -12,7 +12,6 @@ class RecipeTable(db.Model):
     def __repr__(self):
         return f'<RecipeTable {self.name}>'
 
-# Existing models from other projects
 class BitcoinPriceData(db.Model):
     __tablename__ = 'bitcoin_prices'
     id = db.Column(db.Integer, primary_key=True)
