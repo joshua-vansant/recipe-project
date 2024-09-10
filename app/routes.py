@@ -83,7 +83,7 @@ def get_image_url(query):
     response = requests.get(api_url, headers=headers, params=params)
     if response.status_code == 200:
         data = response.json()
-        print(data)  # Debug: print the response
+        # print(data)
         if 'photos' in data and len(data['photos']) > 0:
             image_url = data['photos'][0]['src']['medium']
             return image_url

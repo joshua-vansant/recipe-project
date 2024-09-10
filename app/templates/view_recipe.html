@@ -11,25 +11,65 @@
             height: auto;
             margin-right: 20px;
         }
+        .recipe-details {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .instructions-list {
+            counter-reset: step-counter;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .instructions-list li {
+            margin-bottom: 15px;
+            padding-left: 35px;
+            position: relative;
+        }
+        .instructions-list li::before {
+            content: counter(step-counter);
+            counter-increment: step-counter;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+            padding: 3px 8px;
+            border-radius: 50%;
+            font-size: 0.8em;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1 class="mt-4">{{ recipe.name }}</h1>
+        <h1 class="mt-4 mb-4">{{ recipe.name }}</h1>
 
-        <div class="d-flex mb-4">
-            <img src="{{ image_url }}" alt="{{ recipe.name }}" class="recipe-img" onerror="this.src='https://via.placeholder.com/150x150?text=No+Image+Available';">
-
-            <div>
-                <p><strong>Ingredients:</strong></p>
-                <ul>
-                    {% for ingredient in recipe.ingredients.split('|') %}
-                    <li>{{ ingredient }}</li>
-                    {% endfor %}
-                </ul>
-                <p><strong>Instructions:</strong></p>
-                <p>{{ recipe.instructions }}</p>
-                <p><strong>Created At:</strong> {{ recipe.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="{{ image_url }}" alt="{{ recipe.name }}" class="img-fluid rounded mb-3" onerror="this.src='https://via.placeholder.com/250x250?text=No+Image+Available';">
+            </div>
+            <div class="col-md-8">
+                <div class="recipe-details">
+                    <h3>Ingredients</h3>
+                    <ul>
+                        {% for ingredient in recipe.ingredients.split('|') %}
+                        <li>{{ ingredient }}</li>
+                        {% endfor %}
+                    </ul>
+                    
+                    <h3>Instructions</h3>
+                    <ol class="instructions-list">
+                        {% for step in recipe.instructions.split('.') %}
+                            {% if step.strip() %}
+                                <li>{{ step.strip() }}</li>
+                            {% endif %}
+                        {% endfor %}
+                    </ol>
+                    
+                    <p class="mt-4"><strong>Created At:</strong> {{ recipe.created_at.strftime('%Y-%m-%d %H:%M:%S') }}</p>
+                </div>
             </div>
         </div>
 
